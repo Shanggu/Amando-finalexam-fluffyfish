@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #007bff;
+    text-align: center;
+  }
+  #game {
+    width: 360px;
+    margin: 0 auto;
+    background: url('assets/background.jpg') center/cover no-repeat;
+    height: 640px;
+    position: relative;
+  }
+  #menu {
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+    border-radius: 15px;
+  }
+  #fish {
+    position: absolute;
+    width: 50px;
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #score {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+  }
+  #offline {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    color: red;
+    font-weight: bold;
+    display: none;
+  }
+  
